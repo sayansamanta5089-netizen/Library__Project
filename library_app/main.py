@@ -6,7 +6,7 @@ from datetime import date
 
 app = FastAPI()
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="library_app/templates")
 
 
 def get_db():
